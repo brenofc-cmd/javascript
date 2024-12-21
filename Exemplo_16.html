@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DOM</title>
+		<meta charset="utf-8">
+		<script>
+		function verEmail () {
+			var elemento = document.getElementById("email");
+			alert(elemento);
+			alert(elemento.value);
+			console.log(elemento);
+			console.log(elemento.value);
+		}
+		</script>
+	</head>
+	<body>
+		<h1>DOM</h1>
+		<h4>Exemplo 16 - pegando valores com document.getElementByIl</h4>
+		 <form>
+			<label for="nome">Nome:</label><br>
+			<input type="text" id="nome" value="SENAI" /><br><br>
+			<label for="email">Email:</label><br>
+			<input type="text" id="email" value="senai@sp.senai.br" /><br><br>
+			<input type="button" value="OK" onclick="verEmail()"/>
+		 </form>
+	</body>
+</html>

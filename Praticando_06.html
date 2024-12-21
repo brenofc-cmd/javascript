@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script>
+			var notaFinal = prompt("Digite sua nota final");
+			var qtdFaltas = prompt("Digite a quantidade de faltas");
+			var cargaHoraria = prompt("Digite sua caga horaria");
+			
+			var limiteFaltas = cargaHoraria * 0.25;
+			
+			if(notaFinal >= 50 && qtdFaltas <=limiteFaltas){
+				alert("Aluno foi certificado.");
+			}else{
+				alert("Aluno não foi certificado.");
+			}
+		</script>
+	</head>
+</html>
