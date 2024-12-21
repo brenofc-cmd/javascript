@@ -1,0 +1,42 @@
+body {
+	background-color: LightSteelBlue;
+	
+}
+form {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin: auto;
+	background-color: white;
+	margin-top: 60px;
+	padding: 50px;
+	border-radius: 5px;
+
+}
+table{
+	width: 80%;
+	margin: auto;
+	background-color: white;
+	margin-top: 10px;
+	padding: 10px;
+	border: solid 1px;
+	border-radius: 5px;
+}
+th,td{
+	text-align: center;
+	border: solid 1px;
+}
+
+#botao01{
+	border: solid 1px;
+	width: 30%;
+	margin: auto;
+	border-radius: 5px 5px;
+}
+
+#botao02{
+	border: solid 1px;
+	width: 30%;
+	margin: auto;
+	border-radius: 5px 5px;
+}

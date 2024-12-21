@@ -1,0 +1,26 @@
+div.quadrado {
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	margin: 5px;
+	display: inline-block;
+}
+section {
+	margin: auto;
+	width: 1000px;
+	height: 300px;
+}
+
+div.quadro_01 {
+	background-color: purple;
+	box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+}
+div.quadro_02 {
+	background-image: linear-gradient(to bottom,purple,blue);
+}
+div.quadro_03 {
+	background-image: url(download.jpg);
+}
+*{
+	background-image: url(download.jpg);
+}

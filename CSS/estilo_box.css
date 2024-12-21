@@ -1,0 +1,28 @@
+* {
+	font-family:'Inter', sans-serif;
+	color: #fff;
+}
+
+body {
+	background-color: #b5c5ea;
+}
+
+div {
+	background-color: #2a427a;
+	width: 400px;
+	height: 400px;
+	margin: 50px auto;
+	padding: 50px;
+	box-size: border-box;
+}
+
+h1,p {
+	padding: 30px 50px;
+	height: 28px;
+}
+h1{
+	border: 10px solid #fff;
+	border-radius: 60px;
+	text-align: center;
+	font-size: 58px;
+}
